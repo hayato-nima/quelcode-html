@@ -65,6 +65,7 @@ a{
   box-sizing: border-box;
 
 }
+
 #humberger div {
   position: absolute;
   left: 0;
@@ -75,12 +76,15 @@ a{
   display: inline-block;
   box-sizing: border-box;
 }
+
 #humberger div:nth-of-type(1) {
   top: 0;
 }
+
 #humberger div:nth-of-type(2) {
   top: 8px;
 }
+
 #humberger div:nth-of-type(3) {
   bottom: 0;
 }
@@ -92,6 +96,7 @@ a{
 .page-header-nav-list-text li{
   margin-right: 13px;
 }
+
 .page-header-nav-list-text li a{
   font-family: "Noto Sans JP", sans-serif;
   font-size: 12px;
@@ -100,9 +105,10 @@ a{
   letter-spacing: -0.1px;
   color: #1a1919;
 }
+
 .page-header-nav-list-text li a:hover{
-color: rgba(7, 7, 53, 0.384);
-border-bottom:1px solid #0c419a;
+color: rgb(24, 24, 163);
+border-bottom:1.5px solid #0c419a;
 }
 /* ヘッダーここまで */
 
@@ -196,12 +202,14 @@ margin-right: 5px;
   box-sizing: border-box;
   padding-top: 30px;
 }
+
 .main-sns-list{
   list-style: none;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
+
 .main-sns-list p{
   font-size: 10px;
   font-weight: bold;
@@ -342,6 +350,12 @@ margin-right: 5px;
   width: 217px;
   height: 60px;
   text-align: center;
+  transition: background-color 0.4s ease 0s;
+}
+
+.links-block:hover{
+  background-color: #f5f5f5;
+  transition: background-color 0.4s ease 0s;
 }
 
 #gyou{
@@ -381,6 +395,12 @@ margin-right: 5px;
   width: 217px;
   height: 50px;
   text-align: center;
+  transition: background-color 0.4s ease 0s;
+}
+
+.links-block-short:hover{
+  background-color: #f5f5f5;
+  transition: background-color 0.4s ease 0s;
 }
 
 .links-block-short a{
